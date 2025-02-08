@@ -44,9 +44,9 @@ An interactive image analysis tool built with React for doctors to upload and an
     npm run dev
 
 # Usage
-    Upload medical images using the image upload panel.
-    Use the toolbar to draw, annotate, and adjust the images as needed.
-    Export your analysis when complete.
+-    Upload medical images using the image upload panel.
+-    Use the toolbar to draw, annotate, and adjust the images as needed.
+-    Export your analysis when complete.
 
 # Future Improvements
 - **User Authentication**: Implement user authentication to save and retrieve analysis data.
