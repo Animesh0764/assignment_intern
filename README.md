@@ -33,18 +33,20 @@ An interactive image analysis tool built with React for doctors to upload and an
     git clone https://github.com/yourusername/image-analysis-tool.git
     cd image-analysis-tool
 
-# Install dependencies:
+2. Install dependencies:
 
-npm install
+    ```sh
+    npm install
 
-# Start the development server:
+3. Start the development server:
 
-npm run dev
+    ```sh
+    npm run dev
 
 # Usage
-    1. Upload medical images using the image upload panel.
-    2. Use the toolbar to draw, annotate, and adjust the images as needed.
-    3. Export your analysis when complete.
+    Upload medical images using the image upload panel.
+    Use the toolbar to draw, annotate, and adjust the images as needed.
+    Export your analysis when complete.
 
 # Future Improvements
 - **User Authentication**: Implement user authentication to save and retrieve analysis data.
