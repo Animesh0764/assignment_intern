@@ -1,8 +1,52 @@
-# React + Vite
+# Image Analysis Tool  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive image analysis tool built with React for doctors to upload and analyze up to 10 images (e.g., X-rays, MRI scans). This tool offers a rich set of features, including annotations, freehand drawing, bounding boxes, measurements, image adjustments, and more.  
 
-Currently, two official plugins are available:
+## Features  
+- **Image Upload & Management**: Upload and manage up to 10 medical images.  
+- **Canvas Area**: View and interact with images on a customizable canvas.  
+- **Drawing & Annotation Tools**:  
+    - Bounding boxes  
+    - Freehand drawing  
+    - Annotations and comments  
+    - **Image Adjustments**:  
+    - Zoom & Pan 
+    - Rotate & Flip  
+- **Comparison Mode**: Compare two images side by side.  
+- **Export**: Save the analysis with annotations in a downloadable format.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack  
+- **Frontend**: React (Vite-based)  
+- **State Management**: React Hooks  
+- **Canvas Manipulation**: Native HTML5 Canvas API  
+- **Styling**: CSS Modules / Styled Components  
+
+
+### Key Components  
+- **CanvasArea**: The core component for rendering and manipulating images.  
+- **Toolbar**: Provides tools for drawing, annotations, and image adjustments.  
+- **ImageSlider**: Allows navigation and selection of uploaded images.  
+
+## Installation  
+1. Clone the repository:  
+    ```sh
+    git clone https://github.com/yourusername/image-analysis-tool.git
+    cd image-analysis-tool
+
+# Install dependencies:
+
+npm install
+
+# Start the development server:
+
+npm run dev
+
+# Usage
+    1. Upload medical images using the image upload panel.
+    2. Use the toolbar to draw, annotate, and adjust the images as needed.
+    3. Export your analysis when complete.
+
+# Future Improvements
+- **User Authentication**: Implement user authentication to save and retrieve analysis data.
+- **Image Segmentation**: Add image segmentation tools for more advanced analysis.
+- **Export Changed Image**: Allow users to export images with annotations and adjustments.
